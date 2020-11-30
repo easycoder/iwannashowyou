@@ -1,0 +1,30 @@
+2020/10/26 13:05: test
+2020/10/26 13:05: email/gtanyware@gmail.com
+2020/10/26 13:05: SELECT * from users WHERE email='gtanyware@gmail.com'
+2020/10/26 13:05: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty
+2020/10/26 13:12: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/10/26 13:12: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/10/26 13:12: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/10/26 13:12: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/10/26 13:13: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/10/26 13:14: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/10/26 13:15: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/10/26 13:15: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/10/26 14:45: test
+2020/10/26 14:45: email/gtanyware@gmail.com
+2020/10/26 14:45: SELECT * from users WHERE email='gtanyware@gmail.com'
+2020/10/26 14:45: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty
+2020/10/26 14:45: verify/I_am_admin
+2020/10/26 14:45: list/I_am_admin/ecs
+2020/10/26 14:45: list/I_am_admin/ecs
+2020/10/26 14:47: test
+2020/10/26 14:47: email/gtanyware@gmail.com
+2020/10/26 14:47: SELECT * from users WHERE email='gtanyware@gmail.com'
+2020/10/26 14:47: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty
+2020/10/26 14:47: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/10/26 17:45: test
+2020/10/26 17:45: email/gtanyware@gmail.com
+2020/10/26 17:45: SELECT * from users WHERE email='gtanyware@gmail.com'
+2020/10/26 17:45: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty
+2020/10/26 17:45: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/10/26 17:47: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts

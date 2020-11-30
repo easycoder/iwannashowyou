@@ -1,0 +1,11 @@
+2020/08/09 12:03: list/I_am_admin/ecs
+2020/08/09 15:13: list/I_am_admin/ecs
+2020/08/09 15:14: save/I_am_admin/ecs/steps.txt
+2020/08/09 15:16: save/I_am_admin/ecs/steps.txt
+2020/08/09 15:24: test
+2020/08/09 15:24: verify/I_am_admin
+2020/08/09 15:24: test
+2020/08/09 15:24: email/gtanyware@gmail.com
+2020/08/09 15:24: SELECT * from users WHERE email='gtanyware@gmail.com'
+2020/08/09 15:24: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty
+2020/08/09 15:41: list/I_am_admin/ecs

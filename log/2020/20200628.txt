@@ -1,0 +1,62 @@
+2020/06/28 20:41: test
+2020/06/28 20:42: email/gtanyware@gmail.com
+2020/06/28 20:42: SELECT * from users WHERE email='gtanyware@gmail.com'
+2020/06/28 20:42: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty
+2020/06/28 20:42: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/06/28 20:46: verify/I_am_admin
+2020/06/28 20:46: list/I_am_admin/ecs
+2020/06/28 20:46: list/I_am_admin/ecs
+2020/06/28 20:47: udelete/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts/liguria-0.json
+2020/06/28 20:48: usave/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts/test.json
+2020/06/28 20:52: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/06/28 20:53: usave/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts/test.json
+2020/06/28 20:53: usave/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts/test.json
+2020/06/28 20:55: test
+2020/06/28 20:55: email/gtanyware@gmail.com
+2020/06/28 20:55: SELECT * from users WHERE email='gtanyware@gmail.com'
+2020/06/28 20:55: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty
+2020/06/28 20:55: test
+2020/06/28 20:55: email/gtanyware@gmail.com
+2020/06/28 20:55: SELECT * from users WHERE email='gtanyware@gmail.com'
+2020/06/28 20:55: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty
+2020/06/28 20:56: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/06/28 20:56: test
+2020/06/28 20:56: email/gtanyware@gmail.com
+2020/06/28 20:56: SELECT * from users WHERE email='gtanyware@gmail.com'
+2020/06/28 20:56: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty
+2020/06/28 20:57: test
+2020/06/28 20:58: email/gtanyware@gmail.com
+2020/06/28 20:58: SELECT * from users WHERE email='gtanyware@gmail.com'
+2020/06/28 20:58: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty
+2020/06/28 20:58: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/06/28 20:59: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/06/28 21:00: usave/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts/liguria.json
+2020/06/28 21:00: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/06/28 21:01: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/06/28 21:02: verify/I_am_admin
+2020/06/28 21:02: list/I_am_admin/ecs
+2020/06/28 21:03: list/I_am_admin/ecs
+2020/06/28 21:03: list/I_am_admin/ecs
+2020/06/28 21:03: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/06/28 21:03: udelete/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts/test.json
+2020/06/28 21:05: test
+2020/06/28 21:05: email/gtanyware@gmail.com
+2020/06/28 21:05: SELECT * from users WHERE email='gtanyware@gmail.com'
+2020/06/28 21:05: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty
+2020/06/28 21:08: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/06/28 21:09: test
+2020/06/28 21:09: email/gtanyware@gmail.com
+2020/06/28 21:09: SELECT * from users WHERE email='gtanyware@gmail.com'
+2020/06/28 21:09: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty
+2020/06/28 21:09: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/06/28 21:09: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/06/28 21:11: test
+2020/06/28 21:11: email/gtanyware@gmail.com
+2020/06/28 21:11: SELECT * from users WHERE email='gtanyware@gmail.com'
+2020/06/28 21:11: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty
+2020/06/28 21:11: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
+2020/06/28 21:12: usave/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts/liguria.json
+2020/06/28 21:14: test
+2020/06/28 21:14: email/gtanyware@gmail.com
+2020/06/28 21:14: SELECT * from users WHERE email='gtanyware@gmail.com'
+2020/06/28 21:14: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty

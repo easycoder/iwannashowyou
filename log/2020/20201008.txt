@@ -1,0 +1,6 @@
+2020/10/08 22:28: test
+2020/10/08 22:28: email/gtanyware@gmail.com
+2020/10/08 22:28: SELECT * from users WHERE email='gtanyware@gmail.com'
+2020/10/08 22:28: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty
+2020/10/08 22:28: verify/I_am_admin
+2020/10/08 22:28: list/I_am_admin/ecs

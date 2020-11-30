@@ -1,0 +1,24 @@
+2020/07/02 14:00: test
+2020/07/02 14:01: email/gtanyware@gmail.com
+2020/07/02 14:01: SELECT * from users WHERE email='gtanyware@gmail.com'
+2020/07/02 14:01: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty
+2020/07/02 14:07: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/images/kenburns
+2020/07/02 14:07: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/images/kenburns
+2020/07/02 14:10: verify/I_am_admin
+2020/07/02 14:10: list/I_am_admin/ecs
+2020/07/02 14:10: list/I_am_admin/ecs
+2020/07/02 14:12: save/I_am_admin/ecs/fileman.txt
+2020/07/02 17:37: save/I_am_admin/ecs/fileman.txt
+2020/07/02 17:37: test
+2020/07/02 17:37: email/gtanyware@gmail.com
+2020/07/02 17:37: SELECT * from users WHERE email='gtanyware@gmail.com'
+2020/07/02 17:37: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty
+2020/07/02 17:37: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/images/kenburns
+2020/07/02 17:37: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/images/kenburns
+2020/07/02 17:39: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/images/kenburns
+2020/07/02 17:40: save/I_am_admin/ecs/iwsy.txt
+2020/07/02 18:36: test
+2020/07/02 18:36: email/gtanyware@gmail.com
+2020/07/02 18:36: SELECT * from users WHERE email='gtanyware@gmail.com'
+2020/07/02 18:36: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty
+2020/07/02 18:36: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/images/kenburns

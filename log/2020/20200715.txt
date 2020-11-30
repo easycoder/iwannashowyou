@@ -1,0 +1,6 @@
+2020/07/15 09:18: test
+2020/07/15 21:05: save/I_am_admin/ecs/iwsy.txt
+2020/07/15 21:05: test
+2020/07/15 21:05: email/gtanyware@gmail.com
+2020/07/15 21:05: SELECT * from users WHERE email='gtanyware@gmail.com'
+2020/07/15 21:05: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty
