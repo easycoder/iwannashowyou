@@ -2,7 +2,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src='https://cdn.jsdelivr.net/gh/easycoder/easycoder.github.io/dist/easycoder.js?v=2.7.4'></  </head>
+    <script src="https://cdn.jsdelivr.net/gh/easycoder/easycoder.github.io/dist/easycoder.js?v=2.7.3"></script>
+  </head>
 
   <body>
 
@@ -13,7 +14,8 @@
 
         variable Script
         put false into storage as `debug`
-        require js `dist/plugins/iwsy.js?v=` cat now
+        require js `https://cdn.jsdelivr.net/gh/easycoder/easycoder.github.io/js/plugins/iwsy.js?v=` cat now
+        rest get Script from `https://cdn.jsdelivr.net/gh/easycoder/iwannashowyou/iwsy.js?v=` cat now
         rest get Script from `/resources/ecs/iwsy.txt?v=` cat now
         run Script
     </pre>
