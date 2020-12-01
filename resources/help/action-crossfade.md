@@ -4,7 +4,7 @@
 
 This action crossfades the text of a block, replacing it with new content.
 
-~img:https://easycoder.github.io/iwsy/resources/help/img/action-crossfade.png|100%~
+~img:https://iwannashowyou.netlify.app/resources/help/img/action-crossfade.png|100%~
 
 The **Action**, **Name** and **Label** properties are present for all actions.
 
