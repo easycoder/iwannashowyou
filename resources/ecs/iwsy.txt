@@ -102,7 +102,6 @@
     json parse url the location as Args
     put property `protocol` of Args into Protocol
     put property `domain` of Args into Domain
-debug step
 
 	put `https://cdn.jsdelivr.net/gh/easycoder/iwannashowyou` into CDN
 !	Test if site is on a static host
