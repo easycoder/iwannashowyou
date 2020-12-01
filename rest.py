@@ -10,11 +10,12 @@ app = Bottle()
 # Lists all files in the given directory
 @app.get('/list/<path:path>')
 def listScripts(path):
-    print(f'List files in {path}')
+    truePath = f'resources/{path}'
+    print(f'List files in {truePath}')
     dd = []
     ff = []
-    for file in os.listdir(path):
-        if os.path.isdir(os.path.join(path, file)):
+    for file in os.listdir(truePath):
+        if os.path.isdir(os.path.join(truePath, file)):
             dd.append(file)
         else:
             ff.append(file)
@@ -28,8 +29,9 @@ def listScripts(path):
 # Writes the POST body to a named file in the given directory
 @app.post('/save/<path:path>')
 def saveScript(path):
-    print(f'Save {path}')
-    f = open(path, 'w+')
+    truePath = f'resources/{path}'
+    print(f'Save {truePath}')
+    f = open(f'{truePath}', 'w+')
     f.write(request.body.read().decode('utf-8'))
     f.close()
     return

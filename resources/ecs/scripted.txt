@@ -38,6 +38,12 @@
   variable Item
   
   rest path `rest.php`
+  rest get Valid from `test` or 
+  begin
+    put empty into Password
+    rest path `.`
+    go to Static
+  end
 
   set the title to `Script Editor`
 
@@ -51,7 +57,8 @@
     put empty into storage as `.password`
   end
   if Valid is `yes` put Password into storage as `.password`
-  
+
+Static:
   create Body
   create Container in Body
   set the style of Container to `width:70%;margin:0 auto;background #ffe`
@@ -131,7 +138,8 @@
     put the content of ContentEditor into Content
     if Content is not Current
     begin
-      rest post Content to `save/` cat Password cat `/ecs/` cat Name
+      if Password rest post Content to `save/` cat Password cat `/ecs/` cat Name
+      else rest post Content to `save/ecs/` cat Name
       put Content into Current
       set the content of Status to `Script '` cat Name cat `' saved`
       fork to ResetStatus
@@ -157,7 +165,8 @@
     if confirm `Are you sure you want to delete '` cat Name cat `'?`
     begin
       codemirror close ContentEditor
-      rest post to `delete/` cat Password cat `/ecs/` cat Name
+      if Password rest post to `delete/` cat Password cat `/ecs/` cat Name
+      else rest post to `delete/ecs/` cat Name
       set the content of Status to `Script '` cat Name cat `' deleted`
       set the content of NameEditor to empty
       put empty into Content
@@ -175,7 +184,8 @@ DoOpen:
   begin
     if confirm `Content has changed. Do you want to save it?`
     begin
-      rest post Content to `save/` cat Password cat `/ecs/' cat CurrentName
+      if Password rest post Content to `save/` cat Password cat `/ecs/' cat CurrentName
+      else rest post Content to `save/ecs/' cat CurrentName
 	  codemirror attach to ContentEditor
 	  codemirror set content of ContentEditor to Content
     end
@@ -203,15 +213,32 @@ DoOpen:
   set style `display` of FileListing to `inline-block`
 
 ! Fill the browser with content from the server
-  rest get Files from `list/` cat Password cat `/ecs?v=` cat now
-  put the json count of Files into FileCount
-  put empty into Content
-  put 0 into N
-  while N is less than FileCount
+  if Password
   begin
-  	put element N of Files into Item
-    if property `type` of Item is `txt` json add Item to Content
-    add 1 to N
+    rest get Files from `list/` cat Password cat `/ecs?v=` cat now
+    put the json count of Files into FileCount
+    put empty into Content
+    put 0 into N
+    while N is less than FileCount
+    begin
+        put element N of Files into Item
+        if property `type` of Item is `txt` json add Item to Content
+        add 1 to N
+    end
+  end
+  else
+  begin
+    rest get Files from `list/ecs?v=` cat now
+    put property `files` of Files into Files
+    put the json count of Files into FileCount
+    put empty into Content
+    put 0 into N
+    while N is less than FileCount
+    begin
+        put element N of Files into Item
+        if right 4 of Item is `.txt` json add Item to Content
+        add 1 to N
+    end
   end
   json sort Content
   put empty into FileList
@@ -244,7 +271,7 @@ DoOpen:
     put element N of Content into File
     attach FileRow to `ec-file-row-` cat N
     attach FileName to `ec-file-name-` cat N
-    put property `name` of File into File
+    if Password put property `name` of File into File
     set the content of FileName to File
     if N is even set style `background` of FileRow to `lightgray`
     on click FileName go to SelectFile
