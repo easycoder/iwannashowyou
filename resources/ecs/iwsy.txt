@@ -102,8 +102,9 @@
     json parse url the location as Args
     put property `protocol` of Args into Protocol
     put property `domain` of Args into Domain
+debug step
 
-	put `https://easycoder.github.io/iwsy` into CDN
+	put `https://cdn.jsdelivr.net/gh/easycoder/iwannashowyou` into CDN
 !	Test if site is on a static host
     clear Static
     rest get Item from Protocol cat Domain cat `/rest.php/test`
