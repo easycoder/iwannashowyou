@@ -12,7 +12,7 @@ I Wanna Show You (~iwsy~, pronounced "You-zee" as an approximation to the initia
 
 Our ~page:quickstart:quickstart tutorial~ is a simplified version of the following demo:
 
-~embed:https://cdn.jsdelivr.net/gh/easycoder/iwannashowyou/resources/scripts/demo.json~
+~embed:https://cdn.jsdelivr.net/gh/easycoder/iwannashowyou@master/resources/scripts/demo.json~
 
 ## Quickstart tutorial
 
@@ -29,10 +29,9 @@ The basic features of ~iwsy~ are:
  - A step editor, where you create a set of steps that together form your presentation
  - A block editor, where you define templates to control where things appear on the screen
  - A content editor, where you keep all the text that will be shown in your presentation
- - A VFX editor, where you define the characteristics of your visual effects
  - A presentation viewer that runs your shows or displays any step
  - A block viewer to visualise your blocks
- - User management - on dynamic hosts, each user has their own account and storage area
+ - User management - each user has their own account and storage area
  - Image management - users can create folders, upload/delete images and so on
  - Built-in help - what you're reading
  - A ~page:quickstart:quick-start tutorial~

@@ -15,10 +15,9 @@
         variable Script
         debug step
         put false into storage as `debug`
-        require js `https://cdn.jsdelivr.net/gh/easycoder/iwannashowyou/iwsy-plugin.js?v=` cat now
-        rest get Script from `https://cdn.jsdelivr.net/gh/easycoder/iwannashowyou/resources/ecs/iwsy.txt?v=` cat now
-        print Script
-        rest get Script from `/resources/ecs/iwsy.txt?v=` cat now
+        require js `https://cdn.jsdelivr.net/gh/easycoder/iwannashowyou@master/iwsy-plugin.js?v=` cat now
+        rest get Script from `https://cdn.jsdelivr.net/gh/easycoder/iwannashowyou@master/resources/ecs/iwsy.txt?v=` cat now
+!        rest get Script from `/resources/ecs/iwsy.txt?v=` cat now
         run Script
     </pre>
   </body>
