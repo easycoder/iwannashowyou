@@ -1,8 +1,0 @@
-2020/11/30 08:37: test
-2020/11/30 15:54: test
-2020/11/30 15:54: email/gtanyware@gmail.com
-2020/11/30 15:54: SELECT * from users WHERE email='gtanyware@gmail.com'
-2020/11/30 15:54: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty
-2020/11/30 15:55: ulist/gtanyware@gmail.com/Serend1p1ty/users/2020/160/1/scripts
-2020/11/30 15:56: verify/I_am_admin
-2020/11/30 15:56: list/I_am_admin/ecs

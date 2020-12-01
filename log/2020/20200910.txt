@@ -1,4 +1,0 @@
-2020/09/10 17:21: test
-2020/09/10 17:21: email/gtanyware@gmail.com
-2020/09/10 17:21: SELECT * from users WHERE email='gtanyware@gmail.com'
-2020/09/10 17:21: validate/$2y$10$l2S07rfTqdSJ~pgsoP54KOvQBgrQMBAko1g5Mm3KBW6T6.UB5dEd2/Serend1p1ty
