@@ -8,11 +8,11 @@ This project comprises the _**IWSY**_ engine plus an IDE that also runs in the b
 
 There are 3 ways to use _**IWSY**_:
 
-  1 Directly from this repository, at [https://iwannashowyou.netlify.app](https://iwannashowyou.netlify.app). The site is hosted statically so all your data is stored in your browser, where it will remain available each time you revisit _**IWSY**_.
+1. Directly from this repository, at [https://iwannashowyou.netlify.app](https://iwannashowyou.netlify.app). The site is hosted statically so all your data is stored in your browser, where it will remain available each time you revisit _**IWSY**_.
   
-  1 By copying all the files from the repository to any server, typically LAMP/WAMP/MAMP. If the server runs PHP, your data will be stored on the server. If not then it will behave just as in (1) and store data in your browser.
+1. By copying all the files from the repository to any server, typically LAMP/WAMP/MAMP. If the server runs PHP, your data will be stored on the server. If not then it will behave just as in (1) and store data in your browser.
   
-  1 By copying all the files froom this repository to your computer. You will need Python3 installed. At the command line, navigate to the folder then type `py rest.py`, where the initial `py` is the command that launches Python3. Then go to your browser and type `localhost:17348` in the address bar. All the data will be stored in a subfolder on your computer.
+1. By copying all the files froom this repository to your computer. You will need Python3 installed. At the command line, navigate to the folder then type `py rest.py`, where the initial `py` is the command that launches Python3. Then go to your browser and type `localhost:17348` in the address bar. All the data will be stored in a subfolder on your computer.
 
 ## User management
 
