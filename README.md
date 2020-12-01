@@ -12,7 +12,7 @@ There are 3 ways to use _**IWSY**_:
   
 1. By copying all the files from the repository to any server, typically LAMP/WAMP/MAMP. If the server runs PHP, your data will be stored on the server. If not then it will behave just as in (1) and store data in your browser.
   
-1. By copying all the files froom this repository to your computer. You will need Python3 installed. At the command line, navigate to the folder then type `py rest.py`, where the initial `py` is the command that launches Python3. Then go to your browser and type `localhost:17348` in the address bar. All the data will be stored in a subfolder on your computer.
+1. By copying all the files from this repository to your computer. You will need Python3 installed. At the command line, navigate to the folder then type `py rest.py`, where the initial `py` is the command that launches Python3. Then go to your browser and type `localhost:17348` in the address bar (the port number is defined at the bottom of the `rest.py` script). All your data will be stored in a subfolder on your computer.
 
 ## User management
 
