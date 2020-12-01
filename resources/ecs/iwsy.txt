@@ -103,7 +103,7 @@
     put property `protocol` of Args into Protocol
     put property `domain` of Args into Domain
 
-	put `https://cdn.jsdelivr.net/gh/easycoder/iwannashowyou` into CDN
+	put `https://cdn.jsdelivr.net/gh/easycoder/iwannashowyou@master` into CDN
 !	Test if site is on a static host
     clear Static
     rest get Item from Protocol cat Domain cat `/rest.php/test`
