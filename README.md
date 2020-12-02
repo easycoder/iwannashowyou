@@ -4,6 +4,8 @@ _**IWSY**_ is a presentation engine that runs in the browser. It's a single Java
 
 This project comprises the _**IWSY**_ engine plus an IDE that also runs in the browser and facilitates the creation of JSON presentations in an interactive manner.  All the project documentation is included in the IDE, so it must be hosted somewhere, either on a server or a personal computer. You can choose static hosting, in which case all data will be saved into browser storage, or dynamic hosting, which uses a small REST server to access the host for file storage. The server is included, both as a PHP and as a Python script.
 
+The _**IWSY**_ is pure JavaScript with no external dependencies. The IDE is coded entirely in _**EasyCoder**_ script, full documentation for which can be found at [https://easycoder.github.io](https://easycoder.github.io). Start with `index.html`; this contains a small boot script that loads `resources/ecs/iwsy.txt`, the main script for the IDE. _**EasyCoder**_ scripts are easy to read by anyone with some programming experience. The main JavaScript libraries and IDE scripts are loaded from CDN.
+
 ## How to use IWSY
 
 There are 3 ways to use _**IWSY**_:
