@@ -179,7 +179,7 @@ const EasyCoder_IWSY = {
 			case `init`:
 				const cdn = program.getValue(command.cdn);
 				if (typeof IWSY === `undefined`) {
-					program.require(`js`, `${cdn}/iwsy.js`,
+					program.require(`js`, `${cdn}/iwsy.js/?ver=210330`,
 						function () {
 							program.run(command.pc + 1);
 						});
