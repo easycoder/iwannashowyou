@@ -935,7 +935,7 @@ const IWSY = (playerElement, scriptObject) => {
 	// Restore the cursor
 	const restoreCursor = () => {
 		player.style.cursor = `pointer`;
-		script = homeScript;
+		// script = homeScript;
 		if (afterRun) {
 			afterRun();
 		}
