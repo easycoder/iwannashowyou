@@ -478,9 +478,11 @@ const IWSY = (playerElement, scriptObject) => {
 			image.style.left = `${vfx.xoff2}px`;
 			image.style.top = `${vfx.yoff2}px`;
 			// Remove the vfx now we've done with it
-			const index = vfx.block.vfx.indexOf(vfx);
-			if (index > -1) {
-				vfx.block.vfx.splice(index, 1);
+			if (typeof vfx.block !== 'undefined') {
+				const index = vfx.block.vfx.indexOf(vfx);
+				if (index > -1) {
+					vfx.block.vfx.splice(index, 1);
+				}
 			}
 		}
 	};
